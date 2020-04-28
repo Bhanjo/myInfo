@@ -60,9 +60,10 @@
 }
 
 #info {
+    float: left;
     padding-bottom: 500px;
     background-color: #EDECEC;
-    width: auto;
+    width: 100%;
 }
 
 #info-top {
@@ -75,17 +76,17 @@
 }
 
 #info-profile {
-    float: left;
     font-size: 12px;
-    padding-left: 350px;
+    float: left;
     text-align: center;
+    
 }
 
 #info-edu{
-    float: right;
     font-size: 12px;
-    padding-right: 400px;
+    float: left;
     text-align: center;
+    
 }
 
 #info-use {
