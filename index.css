@@ -1,10 +1,10 @@
 .js-hello {
-    background-color: black;
+    background-color: #171717;
     width: auto; /*만약 가로가 틀어지면 삭제*/
     font-size : 23px;
     color : whitesmoke;
     text-align: center;
-    padding: 50px;
+    padding: 250px;
 }
 
 #navbar {  /*내비 스타일*/
@@ -60,15 +60,37 @@
 }
 
 #info {
-    background-color: #F5F6F6;
+    padding-bottom: 500px;
+    background-color: #EDECEC;
     width: auto;
 }
 
 #info-top {
     font-weight: bold;
-    font-size : 15px;
+    font-size : 40px;
     text-align: center;
-    color: red;
-    text-decoration-line: underline;
+    color: #F42242;
+    /*text-decoration-line: underline;*/
     padding: 10px 0px;
+}
+
+#info-profile {
+    float: left;
+    font-size: 12px;
+    padding-left: 350px;
+    text-align: center;
+}
+
+#info-edu{
+    float: right;
+    font-size: 12px;
+    padding-right: 400px;
+    text-align: center;
+}
+
+#info-use {
+    clear: both; /*float을 제거하기위해 쓴다*/
+    font-size: 12px;
+    padding-top: 50px;
+    text-align: center;
 }
