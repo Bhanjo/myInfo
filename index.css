@@ -60,7 +60,6 @@
 }
 
 #info {
-    float: left;
     padding-bottom: 500px;
     background-color: #EDECEC;
     width: 100%;
@@ -75,27 +74,39 @@
     padding: 10px 0px;
 }
 
-#info-table {
+#info-table { /*프로필, 학력 테이블*/
     margin: auto;
+    margin-top: 25px;
     width:  80%;
     text-align: center;
 }
 
-#info-profile {
-    font-size: 12px;
-    text-align: center;
-    
+#info-table h1 {
+    font-size:  25px;
 }
 
-#info-edu{
-    font-size: 12px;
-    text-align: center;
-    
+#info-table h2 {
+    font-size: 20px;
 }
 
-#info-use {
+#info-use { /*스킬*/
     /*clear: both;*/ /*float을 제거하기위해 쓴다*/
     font-size: 12px;
     padding-top: 50px;
     text-align: center;
+}
+
+#info-character { /*성격 테이블*/
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+#info-character h1{
+    font-size: 28px;
+}
+
+#info-character h2{
+    font-size: 15px;
 }
