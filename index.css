@@ -75,22 +75,26 @@
     padding: 10px 0px;
 }
 
+#info-table {
+    margin: auto;
+    width:  80%;
+    text-align: center;
+}
+
 #info-profile {
     font-size: 12px;
-    float: left;
     text-align: center;
     
 }
 
 #info-edu{
     font-size: 12px;
-    float: left;
     text-align: center;
     
 }
 
 #info-use {
-    clear: both; /*float을 제거하기위해 쓴다*/
+    /*clear: both;*/ /*float을 제거하기위해 쓴다*/
     font-size: 12px;
     padding-top: 50px;
     text-align: center;
