@@ -76,7 +76,7 @@
 
 #info-table { /*프로필, 학력 테이블*/
     margin: auto;
-    margin-top: 25px;
+    margin-top: 70px;
     width:  80%;
     text-align: center;
 }
@@ -91,14 +91,15 @@
 
 #info-use { /*스킬*/
     /*clear: both;*/ /*float을 제거하기위해 쓴다*/
-    font-size: 12px;
+    margin-top: 70px;
+    font-size: 15px;
     padding-top: 50px;
     text-align: center;
 }
 
 #info-character { /*성격 테이블*/
     margin: auto;
-    margin-top: 60px;
+    margin-top: 120px;
     text-align: center;
     width: 100%;
 }
