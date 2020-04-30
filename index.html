@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="index.css"/>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
     <title>HANJO Portfolio</title>
 
     <!--
@@ -11,12 +11,13 @@
         폰트적용법 찾아보기
         모바일 접속 페이지 설정하기
     -->
-    
+
 </head>
 
 <body>
 
-    <div id="navbar"> <!--메뉴-->
+    <div id="navbar">
+        <!--메뉴-->
         <img href="#default " id="logo" src="img/logo.png" class="js-logo">
         <div id="navbar-right">
             <a class="active" href="#home">Home</a>
@@ -25,13 +26,15 @@
         </div>
     </div>
 
-    <div class="js-hello"> <!--베너-->
+    <div class="js-hello">
+        <!--베너-->
         <h1>
-            STUDY AND APPLY<br>I always locate new thngs.
+            STUDY AND APPLY<br>I always locate new things.
         </h1>
     </div>
 
-    <div id="info" class="js-info"> <!--인포-->
+    <div id="info" class="js-info">
+        <!--인포-->
 
         <div id="info-top">
             <a>
@@ -40,21 +43,23 @@
         </div>
 
         <table id="info-table">
-            <tr> <!--행-->
-                <td> <!--열-->
-                    <h1>PROFILE</h1>
+            <tr>
+                <!--행-->
+                <td>
+                    <!--열-->
+                    <h1><span class="infoName">PROFILE</span></h1>
                     <img src="img/infoLogoProfile.png">
                     <h2 id="#myName">배한조</h2>
                     <img src="img/gitLogoProfile.PNG" class="js-gitImg" hspace="7">
-                    <img src="img/blogLogoProfile.PNG"class="js-blogImg" hspace="7">
+                    <img src="img/blogLogoProfile.PNG" class="js-blogImg" hspace="7">
                 </td>
-                <td>                        
-                    <h1>EDUCATION</h1>
+                <td>
+                    <h1><span class="infoName">EDUCATION</span></h1>
                     <h2>🏫 학점은행제(컴퓨터 공학 학사)<br>2017.08 ~ 2018.12</h1>
-                    <h2>🏫 명지대학교(컴퓨터 공학 편입)<br>2020.03 ~ 재학중</h1>
-                    <br>
-                    <h1>LICENSE</h1>
-                    <h2>정보처리 기사<br>컴퓨터 활용능력 1급<br>외 3개</h2>
+                        <h2>🏫 명지대학교(컴퓨터 공학 편입)<br>2020.03 ~ 재학중</h1>
+                            <br>
+                            <h1><span class="infoName">LICENSE</span></h1>
+                            <h2>정보처리 기사<br>컴퓨터 활용능력 1급<br>외 3개</h2>
                 </td>
             </tr>
         </table>
@@ -63,26 +68,26 @@
             <tr>
                 <td>
                     <img src="img/challenge128.png">
-                    <h1>도전</h1>
+                    <h1><span id="characterHinghlight">도전</span></h1>
                     <h2>다양한 도전을 즐깁니다.</h2>
                 </td>
 
                 <td>
                     <img src="img/positive128.png">
-                    <h1>긍정</h1>
+                    <h1><span id="characterHinghlight">긍정</span></h1>
                     <h2>매사에 긍정적입니다.</h2>
                 </td>
 
                 <td>
                     <img src="img/work128.png">
-                    <h1>책임감</h1>
+                    <h1><span id="characterHinghlight">책임감</span></h1>
                     <h2>자신의 일에 최선을 다합니다.</h2>
                 </td>
             </tr>
         </table>
 
         <div id="info-use">
-            <h1>SKILL</h1>
+            <h1><span class="infoSkill">SKILL</span></h1>
             <img src="img/javaLogoProfile.PNG" hspace="15">
             <img src="img/jsLogoProfile.PNG" hspace="15">
             <img src="img/htmlLogoProfile.PNG" hspace="15">
@@ -91,24 +96,25 @@
         </div>
     </div>
 
-    <div id="project"> <!--프로젝트-->
+    <div id="project">
+        <!--프로젝트-->
         <h1 id="project-top">PROJECT</h1>
 
-        <table id="project-info"> <!--포트폴리오 프로젝트-->
-                <tr>
-                    <td>
-                        <img src="img/projectInfo2.PNG">
-                    </td>
-                    <td>
-                        <p id="project-name">포트폴리오 페이지</p>
-                        <a>🗨 HTML, JS로 제작한 포트폴리오입니다.</a>
-                        <h2>💻 HTML / CSS / JS</h2>
-                        <h2>📅 20.04.28 ~ 진행중</h2>
-                        <h2>
-                            <img src="img/blogLogoProfile.PNG" hspace="7"><img src="img/gitLogoProfile.PNG" hspace="7">
-                        </h2>
-                    </td>
-                </tr>
+        <table id="project-info">
+            <!--포트폴리오 프로젝트-->
+            <tr>
+                <td>
+                    <img src="img/projectInfo2.PNG">
+                </td>
+                <td>
+                    <p id="project-name">포트폴리오 페이지</p>
+                    <a>🗨 HTML, JS로 제작한 포트폴리오입니다.</a>
+                    <h2>💻 HTML / CSS / JS</h2>
+                    <h2>📅 20.04.28 ~ 진행중</h2>
+                    <img src="img/blogLogoProfile.PNG" class="js-portfolioBlog" hspace="7">
+                    <img src="img/gitLogoProfile.PNG" class="js-portfolio" hspace="7">
+                </td>
+            </tr>
         </table>
 
         <table id="project-todo">
@@ -121,15 +127,15 @@
                     <a>🗨 스케쥴을 관리할 수 있는 사이트입니다.</a>
                     <h2>💻 HTML / CSS / JS</h2>
                     <h2>📅 20.04.13 ~ 20.04.24</h2>
-                    <h2>
-                        <img src="img/blogLogoProfile.PNG" hspace="7"><img src="img/gitLogoProfile.PNG" hspace="7">
-                    </h2>
+                    <img src="img/blogLogoProfile.PNG" class="js-todoBlog" hspace="7">
+                    <img src="img/gitLogoProfile.PNG" class="js-todoGit" hspace="7">
                 </td>
             </tr>
         </table>
 
         <table id="project-lotto">
-            <tr> <!--스케쥴 프로젝트-->
+            <tr>
+                <!--스케쥴 프로젝트-->
                 <td>
                     <img src="img/projectLotto.PNG">
                 </td>
@@ -139,14 +145,14 @@
                     <h2>💻 JAVA</h2>
                     <h2>📅 20.01.31 ~ 20.02.03</h2>
                     <h2>
-                        <img src="img/blogLogoProfile.PNG" hspace="7"><img src="img/gitLogoProfile.PNG" hspace="7">
+                        <img src="img/blogLogoProfile.PNG" class="js-lottoBlog" hspace="7">
+                        <img src="img/gitLogoProfile.PNG" class="js-lottoGit" hspace="7">
                     </h2>
                 </td>
             </tr>
         </table>
 
     </div>
-    <script src="logoClick.js"></script>
 </body>
-
+    <script src="Click.js"></script>
 </html>

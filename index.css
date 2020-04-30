@@ -70,6 +70,10 @@ body {
     width: 100%;
 }
 
+.infoName, .infoSkill {
+    background-color: rgb(214, 214, 214);
+}
+
 #info-top {
     font-weight: bold;
     font-size : 40px;
@@ -117,6 +121,10 @@ body {
     font-size: 18px;
 }
 
+#characterHinghlight {
+    background-color: rgb(255, 255, 149);
+}
+
 #project {
     background-color: white;
     text-align: center;
@@ -133,7 +141,7 @@ body {
 #project-info, #project-todo, #project-lotto { /*프로젝트 테이블*/
     text-align: center;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-left: 80px;
     padding-right: 80px;
 }
