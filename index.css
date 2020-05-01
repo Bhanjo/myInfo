@@ -185,16 +185,72 @@ body {
     font-weight: bold;
 }
 
+#project table{ /*프로젝트 파트 경계 붕괴*/
+    border-collapse: collapse;
+}
+
+#info-table a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    #characterExplanation {
+        font-size: 14px;
+    }
+    #projectImg {
+        transition: 0.5s;
+        height: 180px;
+        width: 275px;
+    }
+    #project p {
+        transition: 0.5s;
+        font-size: 21px;
+    }
+    #project a {
+        transition: 0.5s;
+        font-size: 14px;
+    }
+    #project h2 {
+        transition: 0.5s;
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 580px) {
+    #info-table h3 {
+        transition: 0.5s;
+        font-size: 13px;
+    }
     #navbar {
         padding: 20px 10px !important;
     }
     #navbar a {
         float: none;
-        display: block;
+        /*display: block;*/
         text-align: left;
     }
     #navbar-right {
         float: none;
+    }
+    #characterExplanation {
+        font-size: 13px;
+    }
+    #projectImg {
+        transition: 0.5s;
+        height: 130px;
+        width: 225px;
+    }
+    #project p {
+        transition: 0.5s;
+        font-size: 15px;
+    }
+    #project a {
+        transition: 0.5s;
+        font-size: 12px;
+    }
+    #project h2 {
+        transition: 0.5s;
+        font-size: 10px;
     }
 }
