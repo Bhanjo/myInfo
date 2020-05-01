@@ -18,19 +18,17 @@
 
     <div id="navbar">
         <!--메뉴-->
-        <img href="#default " id="logo" src="img/logo.png" class="js-logo">
+        <img id="logo" src="img/logo.png" class="js-logo">
         <div id="navbar-right">
-            <a class="active" href="#home">Home</a>
+            <a href="#home">Home</a>
             <a href="#info">Info</a>
             <a href="#project">Project</a>
         </div>
     </div>
 
-    <div class="js-hello">
+    <div id="home" href="#home">
         <!--베너-->
-        <h1>
-            STUDY AND APPLY<br>I always locate new things.
-        </h1>
+        <a id="hi">STUDY AND APPLY<br>I always locate new things.</a>
     </div>
 
     <div id="info" class="js-info">
@@ -69,19 +67,19 @@
                 <td>
                     <img src="img/challenge128.png">
                     <h1><span id="characterHinghlight">도전</span></h1>
-                    <h2>다양한 도전을 즐깁니다.</h2>
+                    <a id="characterExplanation">다양한 도전을 즐깁니다.</a>
                 </td>
 
                 <td>
                     <img src="img/positive128.png">
                     <h1><span id="characterHinghlight">긍정</span></h1>
-                    <h2>매사에 긍정적입니다.</h2>
+                    <a id="characterExplanation">매사에 긍정적입니다.</a>
                 </td>
 
                 <td>
                     <img src="img/work128.png">
                     <h1><span id="characterHinghlight">책임감</span></h1>
-                    <h2>자신의 일에 최선을 다합니다.</h2>
+                    <a id="characterExplanation">자신의 일에 최선을 다합니다.</a>
                 </td>
             </tr>
         </table>
@@ -104,7 +102,7 @@
             <!--포트폴리오 프로젝트-->
             <tr>
                 <td>
-                    <img src="img/projectInfo2.PNG">
+                    <img src="img/projectInfo2.PNG" id="projectImg">
                 </td>
                 <td>
                     <p id="project-name">포트폴리오 페이지</p>
@@ -118,9 +116,10 @@
         </table>
 
         <table id="project-todo">
-            <tr> <!--스케쥴 프로젝트-->
+            <tr>
+                <!--스케쥴 프로젝트-->
                 <td>
-                    <img src="img/projectToDoList.PNG">
+                    <img src="img/projectToDoList.PNG" id="projectImg">
                 </td>
                 <td>
                     <p id="project-name">스케쥴 사이트</p>
@@ -137,7 +136,7 @@
             <tr>
                 <!--스케쥴 프로젝트-->
                 <td>
-                    <img src="img/projectLotto.PNG">
+                    <img src="img/projectLotto.PNG" id="projectImg">
                 </td>
                 <td>
                     <p id="project-name">로또 시뮬레이션 코딩</p>
@@ -154,5 +153,6 @@
 
     </div>
 </body>
-    <script src="Click.js"></script>
+<script src="Click.js"></script>
+
 </html>
