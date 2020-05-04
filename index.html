@@ -20,13 +20,13 @@
         <!--메뉴-->
         <img id="logo" src="img/logo.png" class="js-logo">
         <div id="navbar-right">
-            <a href="#home">Home</a>
-            <a href="#info">Info</a>
-            <a href="#project">Project</a>
+            <a onclick="animteScrollTo('#home')">Home</a>
+            <a onclick="animteScrollTo('#info')">Info</a>
+            <a onclick="animteScrollTo('#project')">Project</a>
         </div>
     </div>
 
-    <div id="home" href="#home">
+    <div id="home">
         <!--베너-->
         <a id="hi">STUDY AND APPLY<br>I always locate new things.</a>
     </div>
@@ -107,7 +107,10 @@
             <!--포트폴리오 프로젝트-->
             <tr>
                 <td>
-                    <img src="img/projectInfo2.PNG" id="projectImg">
+                    <img src="img/projectInfo1.jpg" class="projectImg">
+                    <img src="img/projectInfo2.jpg" class="projectImg">
+                    <img src="img/projectInfo3.jpg" class="projectImg">
+                    <img src="img/projectInfo4.jpg" class="projectImg">
                 </td>
                 <td>
                     <p id="project-name">포트폴리오 페이지</p>
@@ -124,7 +127,9 @@
             <tr>
                 <!--스케쥴 프로젝트-->
                 <td>
-                    <img src="img/projectToDoList.PNG" id="projectImg">
+                    <img src="img/projectToDoList1.PNG" class="projectImgTodo">
+                    <img src="img/projectToDoList2.PNG" class="projectImgTodo">
+                    <img src="img/projectToDoList3.PNG" class="projectImgTodo">
                 </td>
                 <td>
                     <p id="project-name">스케쥴 사이트</p>
@@ -139,9 +144,9 @@
 
         <table id="project-lotto">
             <tr>
-                <!--스케쥴 프로젝트-->
+                <!--로또 프로젝트-->
                 <td>
-                    <img src="img/projectLotto.PNG" id="projectImg">
+                    <img src="img/projectLotto.PNG" class="projectImgLotto">
                 </td>
                 <td>
                     <p id="project-name">로또 시뮬레이션 코딩</p>
@@ -158,6 +163,8 @@
 
     </div>
 </body>
+<script src="scroll.js"></script>
 <script src="Click.js"></script>
+<script src="Slide.js"></script>
 
 </html>
