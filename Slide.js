@@ -37,7 +37,7 @@ function slideShowPortfolio() { //포트폴리오 다음버튼
 }
 
  //스케쥴 슬라이드
- function slideShowTodoBack() {
+ function slideShowTodoBack() { //스케쥴 이전버튼
     let j;
     let y = document.getElementsByClassName("projectImgTodo")
     for(j = 0; j<y.length; j++){
@@ -51,7 +51,7 @@ function slideShowPortfolio() { //포트폴리오 다음버튼
     //setTimeout(slideShowTodo, 3000);
 }
 
-function slideShowTodo() {
+function slideShowTodo() { //스케쥴 다음버튼
     let j;
     let y = document.getElementsByClassName("projectImgTodo")
     for(j = 0; j<y.length; j++){
@@ -64,6 +64,7 @@ function slideShowTodo() {
     y[indexTodo-1].style.display = "inline";
     //setTimeout(slideShowTodo, 3000);
 }
+
 //로또 슬라이드
 /*function slideShowLotto() {
     let k;
