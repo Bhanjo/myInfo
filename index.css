@@ -2,8 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif, 맑은고닥;
 }
 
+hr {
+    width: 500px;
+    background-color: gray;
+}
+
 #hi {
-    line-height: 113%;
+    line-height: 112%;
     font-weight: bold;
     font-size: 40px;;
     background-color: rgb(253, 68, 68);
@@ -59,8 +64,8 @@ body {
 }
 
 #info {
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 70px;
     background-color: #EDECEC;
     width: 100%;
 }
@@ -75,12 +80,12 @@ body {
     text-align: center;
     color: #F42242;
     /*text-decoration-line: underline;*/
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 #info-table { /*프로필, 학력 테이블*/
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 80%;
     text-align: center;
 }
@@ -138,6 +143,11 @@ body {
     width: 450px;
 }
 
+#project-info, #project-todo, #project-lotto {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 .projectImg a, .projectImgTodo a, .projectImgLotto a {
     position: absolute;
     left: 50%;
@@ -164,8 +174,6 @@ body {
     text-align: center;
     width: 100%;
     padding-bottom: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 #project-info h1, #project-todo h1, #project-lotto h1 {
@@ -254,4 +262,25 @@ body {
         transition: 0.5s;
         font-size: 10px;
     }
+}
+
+.slideWrap{
+    position: relative;
+}
+
+.slideButtonRight, .slideButtonLeft {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.slideButtonLeft {
+    transform: translate(-350%, -50%);
+}
+
+.slideButtonRight {
+    transform: translate(250%, -50%);
 }

@@ -59,7 +59,7 @@
                     <h3>
                         🏫 명지대학교(컴퓨터 공학 편입)<br>2020.03 ~ 재학중
                     </h3>
-                    
+
                     <br>
                     <h1><span class="infoName">LICENSE</span></h1>
                     <h3>정보처리 기사<br>컴퓨터 활용능력 1급</h3>
@@ -107,10 +107,14 @@
             <!--포트폴리오 프로젝트-->
             <tr>
                 <td>
-                    <img src="img/projectInfo1.jpg" class="projectImg">
-                    <img src="img/projectInfo2.jpg" class="projectImg">
-                    <img src="img/projectInfo3.jpg" class="projectImg">
-                    <img src="img/projectInfo4.jpg" class="projectImg">
+                    <div class="slideWrap">
+                        <img src="img/projectInfo1.jpg" class="projectImg">
+                        <img src="img/projectInfo2.jpg" class="projectImg">
+                        <img src="img/projectInfo3.jpg" class="projectImg">
+                        <img src="img/projectInfo4.jpg" class="projectImg">
+                        <button class="slideButtonLeft" onclick="slideShowPortfolioBack()">이전</button>
+                        <button class="slideButtonRight" onclick="slideShowPortfolio()">다음</button>
+                    </div>
                 </td>
                 <td>
                     <p id="project-name">포트폴리오 페이지</p>
@@ -122,14 +126,18 @@
                 </td>
             </tr>
         </table>
-
+        <hr>
         <table id="project-todo">
             <tr>
                 <!--스케쥴 프로젝트-->
                 <td>
-                    <img src="img/projectToDoList1.PNG" class="projectImgTodo">
-                    <img src="img/projectToDoList2.PNG" class="projectImgTodo">
-                    <img src="img/projectToDoList3.PNG" class="projectImgTodo">
+                    <div class="slideWrap">
+                        <img src="img/projectToDoList1.PNG" class="projectImgTodo" onclick="slideShowTodo()">
+                        <img src="img/projectToDoList2.PNG" class="projectImgTodo" onclick="slideShowTodo()">
+                        <img src="img/projectToDoList3.PNG" class="projectImgTodo" onclick="slideShowTodo()">
+                        <button class="slideButtonLeft" onclick="slideShowTodoBack()">이전</button>
+                        <button class="slideButtonRight" onclick="slideShowTodo()">다음</button>
+                    </div>
                 </td>
                 <td>
                     <p id="project-name">스케쥴 사이트</p>
@@ -141,7 +149,7 @@
                 </td>
             </tr>
         </table>
-
+        <hr>
         <table id="project-lotto">
             <tr>
                 <!--로또 프로젝트-->

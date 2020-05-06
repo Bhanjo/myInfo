@@ -5,13 +5,26 @@ let indexLotto = 0; //로또 이미지 목록
 window.onload = function() {
     slideShowPortfolio();
     slideShowTodo();
-    slideShowLotto();
+    //slideShowLotto();
 }
 
-//포트폴리오 슬라이드
-function slideShowPortfolio() {
+ //포트폴리오 슬라이드
+function slideShowPortfolioBack() { //포트폴리오 이전버튼
     let i;
-    let x = document.getElementsByClassName("projectImg")
+    let x = document.getElementsByClassName("projectImg");
+    for(i = 0; i<x.length; i++){
+        x[i].style.display="none";
+    }
+    index--;
+    if(index <= 0){
+        index= x.length;
+    }
+    x[index-1].style.display = "inline";
+}
+
+function slideShowPortfolio() { //포트폴리오 다음버튼
+    let i;
+    let x = document.getElementsByClassName("projectImg");
     for(i = 0; i<x.length; i++){
         x[i].style.display="none";
     }
@@ -20,10 +33,24 @@ function slideShowPortfolio() {
         index = 1;
     }
     x[index-1].style.display = "inline";
-    setTimeout(slideShowPortfolio, 3000);
+    //setTimeout(slideShowPortfolio, 3000);
 }
 
  //스케쥴 슬라이드
+ function slideShowTodoBack() {
+    let j;
+    let y = document.getElementsByClassName("projectImgTodo")
+    for(j = 0; j<y.length; j++){
+        y[j].style.display="none";
+    }
+    indexTodo--;
+    if(indexTodo <= 0){
+        indexTodo = y.length;
+    }
+    y[indexTodo-1].style.display = "inline";
+    //setTimeout(slideShowTodo, 3000);
+}
+
 function slideShowTodo() {
     let j;
     let y = document.getElementsByClassName("projectImgTodo")
@@ -35,9 +62,8 @@ function slideShowTodo() {
         indexTodo = 1;
     }
     y[indexTodo-1].style.display = "inline";
-    setTimeout(slideShowTodo, 3000);
+    //setTimeout(slideShowTodo, 3000);
 }
-
 //로또 슬라이드
 /*function slideShowLotto() {
     let k;
